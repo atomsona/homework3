@@ -1,0 +1,17 @@
+:root {
+    --footer-height: 60px;
+    --footer-background-color: #4CAF50;
+    --footer-text-color: #fff;
+  }
+  
+  .footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: var(--box-shadow);
+    font-size: 0.9rem;
+  }

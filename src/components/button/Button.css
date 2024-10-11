@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #4CAF50;
+  --hover-color: #45a049;
+  --button-text-color: white;
+  --button-padding: 12px 24px;
+  --border-radius: 50px;
+}
+
+.custom-button {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: var(--button-padding);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.custom-button:hover {
+  background-color: var(--hover-color);
+  transform: translateY(-3px);
+}
+
+.custom-button:active {
+  transform: scale(0.98);
+}
