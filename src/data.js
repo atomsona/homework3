@@ -12,6 +12,12 @@ const cardData = [
       desc: "this cat is so small and so flexy",
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg",
     },
+    {
+      id: 3,
+      name: "rabbit",
+      desc: "this rabbit eats carrots",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/1200px-Oryctolagus_cuniculus_Rcdo.jpg",
+    },
     
     {
         id: 4,
